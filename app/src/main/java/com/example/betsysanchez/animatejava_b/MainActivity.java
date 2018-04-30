@@ -61,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
                         Animation.RELATIVE_TO_PARENT,0.5f,Animation.RELATIVE_TO_PARENT,0.5f);
                 animation.setDuration(1000);
                 imageView.startAnimation(animation);
-                imageView.startAnimation(null);
             }
         });
         alpha.setOnClickListener(new View.OnClickListener() {
